@@ -8,24 +8,24 @@
              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
              xmlns="http://java.sun.com/xml/ns/persistence">
 
-  <persistence-unit name="com.homeshop18.bpm" transaction-type="JTA">
+  <persistence-unit name="com.girish.bpm" transaction-type="JTA">
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     <jta-data-source>java:jboss/datasources/ExampleDS</jta-data-source>
     <!-- 
         <mapping-file>META-INF/JBPMorm.xml</mapping-file>
         <mapping-file>META-INF/Taskorm.xml</mapping-file> -->
-        <class>com.homeshop18.bpm.Entity.Process</class>
-        <class>com.homeshop18.bpm.Entity.ProcessInstance</class>
-        <class>com.homeshop18.bpm.Entity.ProcessInstanceLog</class>
-        <class>com.homeshop18.bpm.Entity.Task</class>
-        <class>com.homeshop18.bpm.Entity.TaskInstance</class>
+        <class>com.girish.bpm.Entity.Process</class>
+        <class>com.girish.bpm.Entity.ProcessInstance</class>
+        <class>com.girish.bpm.Entity.ProcessInstanceLog</class>
+        <class>com.girish.bpm.Entity.Task</class>
+        <class>com.girish.bpm.Entity.TaskInstance</class>
         
-        <class>com.homeshop18.bpm.Entity.TaskInstanceLog</class>
-        <class>com.homeshop18.bpm.Entity.DynamicExecution</class>
-        <class>com.homeshop18.bpm.Entity.User</class>
+        <class>com.girish.bpm.Entity.TaskInstanceLog</class>
+        <class>com.girish.bpm.Entity.DynamicExecution</class>
+        <class>com.girish.bpm.Entity.User</class>
         
         <!-- manager -->
-        <class>com.homeshop18.bpm.Entity.Group</class>
+        <class>com.girish.bpm.Entity.Group</class>
         
         <exclude-unlisted-classes>true</exclude-unlisted-classes>
 

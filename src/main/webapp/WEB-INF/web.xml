@@ -7,11 +7,11 @@
 
 	<servlet>
 		<servlet-name>ProcessServlet</servlet-name>
-		<servlet-class>com.homeshop18.bpm.web.ProcessServlet</servlet-class>
+		<servlet-class>com.girish.bpm.web.ProcessServlet</servlet-class>
 	</servlet>
 	<servlet>
 		<servlet-name>TaskServlet</servlet-name>
-		<servlet-class>com.homeshop18.bpm.web.TaskServlet</servlet-class>
+		<servlet-class>com.girish.bpm.web.TaskServlet</servlet-class>
 	</servlet>
 
 	<servlet-mapping>
