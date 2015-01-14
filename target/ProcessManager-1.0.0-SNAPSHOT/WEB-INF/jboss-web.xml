@@ -1,0 +1,3 @@
+<jboss-web>
+    <context-root>ProcessManager</context-root>
+</jboss-web>
